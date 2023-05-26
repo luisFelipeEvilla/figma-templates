@@ -15,7 +15,8 @@
     {
       "title": "Preset sizes",
       "description": "Create frames with preset sizes e.g. iPhone X, by selecting the\n        preset in the Properties panel on the right-hand side.",
-      "img": "/images/2.png"
+      "img": "/images/2.png",
+      "shortcuts": []
     },
     {
       "title": "Existing elements",

@@ -1,40 +1,9 @@
 import Image from "next/image"
 
+import articles from '../../data.json';
+
 export default function Frames() {
-    const articles = [
-        {
-            title: 'Custom sizes',
-            description: `Create custom sized frames by selecting the frame tool and click
-                and drag your cursor to the disired size.`,
-            img: '/images/1.png',
-            shortcuts: [{
-                title: 'macOs and Win shortcut',
-                keys: ['F']
-            }]
-        },
-        {
-            title: 'Preset sizes',
-            description: `Create frames with preset sizes e.g. iPhone X, by selecting the
-            preset in the Properties panel on the right-hand side.`,
-            img: '/images/2.png'
-        },
-        {
-            title: `Existing elements`,
-            description: `Create frames from existing elements on the canvas by right-clicking
-            and selecting Frame Selection.`,
-            img: '/images/3.png',
-            shortcuts: [
-                {
-                    title: 'macOs shortcut',
-                    keys: ['⌥', '⌘', 'G']
-                },
-                {
-                    title: 'Win shortcut',
-                    keys: ['Alt', 'Ctrl', 'G']
-                }
-            ]
-        }
-    ]
+
 
     const Container = (props: any) => {
         return (

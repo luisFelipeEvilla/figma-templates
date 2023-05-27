@@ -5,7 +5,7 @@ import articles from '../../data.json';
 
 export default function Frames() {
     return (
-        <main className="flex py-12 bg-anti-flash-white">
+        <main className="flex py-12">
             <div className="w-2/5">
                 <p className="text-8xl text-gray-300 text-center pr-8">1</p>
             </div>

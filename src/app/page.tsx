@@ -1,10 +1,12 @@
-import styles from "./Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between pt-12 pb-24">
+      <div className="flex w-full justify-end px-20">
+        <Link className="rounded-md bg-blue-500 text-white font-bold py-3 px-6 hover:bg-blue-700" href={'/frames'}>Frames<span className="px-2">→</span> </Link>
+      </div>
       <div className="flex">
-
         <div className='flex flex-col bg-black p-9 pt-12 w-[500px] h-[400px] relative'>
           <div className='text-white text-4xl font-semibold'>
             <h1>Learn the basics of Figma</h1>
@@ -36,7 +38,7 @@ export default function Home() {
           >
           </div>
         </div>
-      </div>  
+      </div>
     </main>
   )
 }

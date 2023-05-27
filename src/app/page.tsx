@@ -15,7 +15,7 @@ export default function Home() {
           <div className='text-gray-400 text-base mt-4'>
             This tutorial file will walk you through all the basics of starting
             your design in Figma. For more tutorial content and features,
-            overview, visit <a href="https://help.figma.com" target="_blank" className='text-white font-medium'>help.figma.com.</a>
+            overview, visit <a href="https://help.figma.com" target="_blank" className='text-white font-medium hover:font-semibold'>help.figma.com.</a>
           </div>
 
           <div className="absolute bottom-0 right-5 flex translate-x-12">
